@@ -65,7 +65,38 @@ body {
 }
 
 .box:hover .img_3 {
-    transform: translate(0, -150px) rotateY(1turn) scale(1.25);
+    transform: translate(87px, -290px) rotateY(1turn) scale(1.25);
+    z-index: 2;
+}
+
+.img_4 {
+    width: 185px;
+    height: 185px;
+    position: absolute;
+    top: 65px;
+    left: 65px;
+    z-index: 1;
+    scale: 0.9;
+    transition: transform 0.5s ease, z-index 0.5s ease;
+}
+
+.box:hover .img_4 {
+    transform: translate(0, -150px) rotateX(5turn) scale(1.25);
+}
+
+.txt{
+    width: 185px;
+    height: 185px;
+    position: absolute;
+    top: 65px;
+    left: 65px;
+    z-index: 1;
+    transition: transform 0.5s ease, z-index 0.5s ease;
+    transition-duration: 1s;
+}
+
+.box:hover .txt {
+    transform: translate(0, -168px) rotateY(1turn) scale(1.25);
 }
 
 .overflov{
